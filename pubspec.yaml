@@ -1,0 +1,43 @@
+name: note_app
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  flutter_screenutil: ^5.5.4
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  intl: ^0.17.0
+  flutter_bloc: ^8.1.1
+  lottie: ^1.4.3
+  flutter_staggered_grid_view: ^0.6.2
+  flutter_secure_storage: ^4.2.1
+  rename: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.2
+  hive_generator: ^2.0.0
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/json/
+    - assets/images/logo.png
+    - assets/images/logo_transparent.png
